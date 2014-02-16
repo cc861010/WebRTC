@@ -5,7 +5,8 @@
     https://webrtc-demos.appspot.com/html/pc1.html
 */
 
-var cfg = {"iceServers":[{"url":"stun:23.21.150.121"}]},
+//var cfg = {"iceServers":[{"url":"stun:23.21.150.121"}]},
+var cfg = {"iceServers":[{"url":"stun:stun.l.google.com:19302"}]},
     con = { 'optional': [{'DtlsSrtpKeyAgreement': true}, {'RtpDataChannels': true }] };
 
 /* THIS IS ALICE, THE CALLER/SENDER */
