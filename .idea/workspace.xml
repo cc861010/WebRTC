@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c248a72e-6265-4e14-b255-1c6498eb82c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/examples/party/Charlie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/lib/Connection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/Connection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/Connection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/lib/ConnectionManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/ConnectionManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/ConnectionManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/JSONProtocol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/JSONProtocol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/LICENSE-APACHE2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/LICENSE-APACHE2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/P.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/P.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/lib/Server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/WebRTCConnection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/WebRtcConnection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/WebSocketConnection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/WebSocketConnection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/google/adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/examples/party/alice.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/examples/party/bob.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/google/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/bin/onramp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/dist/p.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/examples/ping-pong/ping.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/examples/ping-pong/pong.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/lib/protocol.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/google/adapter.js" afterPath="$PROJECT_DIR$/resource/google/adapter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebRTC.iws" />
@@ -109,7 +70,7 @@
       <file leaf-file-name="RTC.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource/rtc/RTC.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="249" column="52" selection-start="6896" selection-end="6919" vertical-scroll-proportion="0.0" vertical-offset="3216" max-vertical-offset="4784">
+            <state line="249" column="52" selection-start="6896" selection-end="6919" vertical-scroll-proportion="-26.48276" vertical-offset="3216" max-vertical-offset="4784">
               <folding />
             </state>
           </provider>
@@ -118,7 +79,7 @@
       <file leaf-file-name="RTCMultiConnection-v1.3.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resource/rtc/RTCMultiConnection-v1.3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="17" selection-start="1787" selection-end="1787" vertical-scroll-proportion="8.369231" vertical-offset="0" max-vertical-offset="6176">
+            <state line="1044" column="28" selection-start="35049" selection-end="35049" vertical-scroll-proportion="0.19693094" vertical-offset="2211" max-vertical-offset="5472">
               <folding>
                 <element signature="e#154#208#0" expanded="false" />
                 <element signature="e#274#341#0" expanded="false" />
@@ -126,6 +87,7 @@
                 <element signature="e#1107#1689#0" expanded="false" />
                 <element signature="e#1257#1494#0" expanded="false" />
                 <element signature="e#1546#1677#0" expanded="false" />
+                <element signature="e#3544#5278#0" expanded="false" />
                 <element signature="e#4443#4557#0" expanded="false" />
                 <element signature="e#4674#4788#0" expanded="false" />
                 <element signature="e#4957#5038#0" expanded="false" />
@@ -338,6 +300,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="firebase.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resource/rtc/firebase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3128" column="6" selection-start="106385" selection-end="106385" vertical-scroll-proportion="0.0" vertical-offset="49896" max-vertical-offset="50528">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -362,16 +333,16 @@
         <option value="$PROJECT_DIR$/resource/rtc/RTC.html" />
         <option value="$PROJECT_DIR$/resource/serverless/js/serverless-webrtc.js" />
         <option value="$PROJECT_DIR$/resource/google/11.js" />
-        <option value="$PROJECT_DIR$/resource/google/adapter.js" />
         <option value="$PROJECT_DIR$/resource/google/main.js" />
+        <option value="$PROJECT_DIR$/resource/google/adapter.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1374" />
-    <option name="height" value="748" />
+    <option name="x" value="61" />
+    <option name="y" value="6" />
+    <option name="width" value="1258" />
+    <option name="height" value="694" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -421,6 +392,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -439,6 +460,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="D:/PseudoBaseStation" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -709,7 +731,7 @@
       <workItem from="1392279596588" duration="63000" />
       <workItem from="1392279711132" duration="233000" />
       <workItem from="1392515301098" duration="9339000" />
-      <workItem from="1392599036591" duration="128000" />
+      <workItem from="1392599036591" duration="5547000" />
     </task>
     <task id="LOCAL-00001" summary="fireBase">
       <created>1392291350520</created>
@@ -723,18 +745,22 @@
       <created>1392558061297</created>
       <updated>1392558061297</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="server&#10;">
+      <created>1392599171365</created>
+      <updated>1392599171365</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9763000" />
+    <option name="totallyTimeSpent" value="15182000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
+    <frame x="61" y="6" width="1258" height="694" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.83280253" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24912892" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -746,12 +772,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18504532" sideWeight="0.4262295" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19619206" sideWeight="0.4262295" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -759,7 +786,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -803,6 +829,7 @@
             <element signature="e#1107#1689#0" expanded="false" />
             <element signature="e#1257#1494#0" expanded="false" />
             <element signature="e#1546#1677#0" expanded="false" />
+            <element signature="e#3544#5278#0" expanded="false" />
             <element signature="e#4443#4557#0" expanded="false" />
             <element signature="e#4674#4788#0" expanded="false" />
             <element signature="e#4957#5038#0" expanded="false" />
@@ -1031,6 +1058,7 @@
             <element signature="e#1107#1689#0" expanded="false" />
             <element signature="e#1257#1494#0" expanded="false" />
             <element signature="e#1546#1677#0" expanded="false" />
+            <element signature="e#3544#5278#0" expanded="false" />
             <element signature="e#4443#4557#0" expanded="false" />
             <element signature="e#4674#4788#0" expanded="false" />
             <element signature="e#4957#5038#0" expanded="false" />
@@ -1271,6 +1299,7 @@
             <element signature="e#1107#1689#0" expanded="false" />
             <element signature="e#1257#1494#0" expanded="false" />
             <element signature="e#1546#1677#0" expanded="false" />
+            <element signature="e#3544#5278#0" expanded="false" />
             <element signature="e#4443#4557#0" expanded="false" />
             <element signature="e#4674#4788#0" expanded="false" />
             <element signature="e#4957#5038#0" expanded="false" />
@@ -1525,7 +1554,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/serverless/js/jquery-2.0.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.9240507" vertical-offset="912" max-vertical-offset="140176" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.9240507" vertical-offset="912" max-vertical-offset="140176">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/serverless/js/bootstrap.js">
@@ -1535,7 +1568,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/serverless/js/adapter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520" />
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/server/node_modules/webrtc.io/lib/webrtc.io.js">
@@ -1558,7 +1593,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/serverless/js/file-transfer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.747253" vertical-offset="2160" max-vertical-offset="2704" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.747253" vertical-offset="2160" max-vertical-offset="2704">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/server/node_modules/webrtc.io/index.js">
@@ -1573,7 +1612,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/server/site/server-secure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="455" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="455">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/client/index.html">
@@ -1581,16 +1622,13 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.811138" vertical-offset="2400" max-vertical-offset="3040" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/rtc/firebase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3152" column="0" selection-start="107373" selection-end="107373" vertical-scroll-proportion="1.295082" vertical-offset="49800" max-vertical-offset="50528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/serverless/js/serverless-webrtc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="37" selection-start="1956" selection-end="1956" vertical-scroll-proportion="-3.1439588" vertical-offset="2327" max-vertical-offset="4048" />
+        <state line="69" column="37" selection-start="1956" selection-end="1956" vertical-scroll-proportion="-3.1439588" vertical-offset="2327" max-vertical-offset="4048">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/client/white_paper.html">
@@ -1603,11 +1641,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.2" vertical-offset="1512" max-vertical-offset="1872" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/google/adapter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="1" selection-start="4771" selection-end="4771" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2304" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/google/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="138" column="38" selection-start="4233" selection-end="4250" vertical-scroll-proportion="0.54565704" vertical-offset="1963" max-vertical-offset="11328">
@@ -1615,16 +1648,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resource/p/dist/p.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/p/lib/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="503">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/p/lib/Connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/p/lib/JSONProtocol.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/p/lib/ConnectionManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="36" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="7" selection-start="854" selection-end="854" vertical-scroll-proportion="0.33200794" vertical-offset="665" max-vertical-offset="3056">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/p/lib/WebRtcConnection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="16" selection-start="2049" selection-end="2065" vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="1568">
+          <folding>
+            <element signature="n#!!block;n#WebRTCConnection#0" expanded="false" />
+            <element signature="e#1911#2046#0" expanded="false" />
+            <element signature="e#2125#2460#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resource/rtc/RTC.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="52" selection-start="6896" selection-end="6919" vertical-scroll-proportion="0.0" vertical-offset="3216" max-vertical-offset="4784">
+        <state line="249" column="52" selection-start="6896" selection-end="6919" vertical-scroll-proportion="-26.48276" vertical-offset="3216" max-vertical-offset="4784">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/rtc/firebase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3128" column="6" selection-start="106385" selection-end="106385" vertical-scroll-proportion="0.0" vertical-offset="49896" max-vertical-offset="50528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/google/adapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.35643566" vertical-offset="0" max-vertical-offset="2368">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/rtc/RTCMultiConnection-v1.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="17" selection-start="1787" selection-end="1787" vertical-scroll-proportion="8.369231" vertical-offset="0" max-vertical-offset="6176">
+        <state line="1044" column="28" selection-start="35049" selection-end="35049" vertical-scroll-proportion="0.19693094" vertical-offset="2211" max-vertical-offset="5472">
           <folding>
             <element signature="e#154#208#0" expanded="false" />
             <element signature="e#274#341#0" expanded="false" />
@@ -1632,6 +1732,7 @@
             <element signature="e#1107#1689#0" expanded="false" />
             <element signature="e#1257#1494#0" expanded="false" />
             <element signature="e#1546#1677#0" expanded="false" />
+            <element signature="e#3544#5278#0" expanded="false" />
             <element signature="e#4443#4557#0" expanded="false" />
             <element signature="e#4674#4788#0" expanded="false" />
             <element signature="e#4957#5038#0" expanded="false" />

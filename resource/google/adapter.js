@@ -1,9 +1,13 @@
 var RTCPeerConnection = null;
+var RTCSessionDescription = null;
+var RTCIceCandidate = null;
 var getUserMedia = null;
 var attachMediaStream = null;
 var reattachMediaStream = null;
 var webrtcDetectedBrowser = null;
 var webrtcDetectedVersion = null;
+
+
 
 function trace(text) {
     // This function is used for logging.
