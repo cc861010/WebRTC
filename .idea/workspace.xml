@@ -2,45 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c248a72e-6265-4e14-b255-1c6498eb82c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/images/LT_WhiteGrunge_07_half_size.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/base64-arraybuffer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/otr/bigint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/test/color_tester.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/crypto-js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/otr/crypto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/js/crypto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/otr/eventemitter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/js/file-io.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/idb.filesystem.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/server/node_modules/webrtc.io/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/jquery.browser.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/crypto-js/lib-typedarrays-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/otr/otr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/otr/otr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/crypto-js/rabbit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/ext-js/otr/salsa20.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/server/site/server-secure.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/server/site/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/js/webrtc-data.io.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/server/node_modules/webrtc.io/lib/webrtc.io.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/webRTCCopy/client/white_paper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/serverless/js/serverless-webrtc.js" afterPath="$PROJECT_DIR$/resource/serverless/js/serverless-webrtc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/examples/party/Charlie.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/lib/Connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/Connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/Connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/lib/ConnectionManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/ConnectionManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/ConnectionManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/JSONProtocol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/JSONProtocol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/LICENSE-APACHE2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/LICENSE-APACHE2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/P.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/P.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/lib/Server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/WebRTCConnection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/WebRtcConnection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/WebSocketConnection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/WebSocketConnection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/google/adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/examples/party/alice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/examples/party/bob.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/lib/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/test/specs/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/google/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/bin/onramp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/dist/p.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/examples/ping-pong/ping.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/p/examples/ping-pong/pong.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/onramp/lib/protocol.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebRTC.iws" />
@@ -108,17 +109,231 @@
       <file leaf-file-name="RTC.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource/rtc/RTC.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="28" selection-start="4291" selection-end="4291" vertical-scroll-proportion="-0.0" vertical-offset="2848" max-vertical-offset="4784">
+            <state line="249" column="52" selection-start="6896" selection-end="6919" vertical-scroll-proportion="0.0" vertical-offset="3216" max-vertical-offset="4784">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="white_paper.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/client/white_paper.html">
+      <file leaf-file-name="RTCMultiConnection-v1.3.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resource/rtc/RTCMultiConnection-v1.3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="78.2" vertical-offset="1955" max-vertical-offset="2368">
-              <folding />
+            <state line="62" column="17" selection-start="1787" selection-end="1787" vertical-scroll-proportion="8.369231" vertical-offset="0" max-vertical-offset="6176">
+              <folding>
+                <element signature="e#154#208#0" expanded="false" />
+                <element signature="e#274#341#0" expanded="false" />
+                <element signature="e#915#1025#0" expanded="false" />
+                <element signature="e#1107#1689#0" expanded="false" />
+                <element signature="e#1257#1494#0" expanded="false" />
+                <element signature="e#1546#1677#0" expanded="false" />
+                <element signature="e#4443#4557#0" expanded="false" />
+                <element signature="e#4674#4788#0" expanded="false" />
+                <element signature="e#4957#5038#0" expanded="false" />
+                <element signature="e#5701#5780#0" expanded="false" />
+                <element signature="e#6155#6247#0" expanded="false" />
+                <element signature="e#6298#6430#0" expanded="false" />
+                <element signature="e#6330#6415#0" expanded="false" />
+                <element signature="e#6456#6799#0" expanded="false" />
+                <element signature="e#6494#6654#0" expanded="false" />
+                <element signature="e#6527#6602#0" expanded="false" />
+                <element signature="e#6686#6784#0" expanded="false" />
+                <element signature="e#6842#7113#0" expanded="false" />
+                <element signature="e#6880#6968#0" expanded="false" />
+                <element signature="e#7000#7098#0" expanded="false" />
+                <element signature="e#7252#8829#0" expanded="false" />
+                <element signature="e#7335#8163#0" expanded="false" />
+                <element signature="e#7469#7746#0" expanded="false" />
+                <element signature="e#7811#7918#0" expanded="false" />
+                <element signature="e#8201#8815#0" expanded="false" />
+                <element signature="e#8367#8734#0" expanded="false" />
+                <element signature="e#9076#9214#0" expanded="false" />
+                <element signature="e#9249#9340#0" expanded="false" />
+                <element signature="e#9394#9650#0" expanded="false" />
+                <element signature="e#9442#9629#0" expanded="false" />
+                <element signature="e#9481#9613#0" expanded="false" />
+                <element signature="e#9721#28683#0" expanded="false" />
+                <element signature="e#10156#21210#0" expanded="false" />
+                <element signature="e#10189#10623#0" expanded="false" />
+                <element signature="e#10311#10609#0" expanded="false" />
+                <element signature="e#10680#10768#0" expanded="false" />
+                <element signature="e#10966#13189#0" expanded="false" />
+                <element signature="e#11052#11390#0" expanded="false" />
+                <element signature="e#11096#11370#0" expanded="false" />
+                <element signature="e#11178#11348#0" expanded="false" />
+                <element signature="e#11435#11652#0" expanded="false" />
+                <element signature="e#11474#11632#0" expanded="false" />
+                <element signature="e#11697#12662#0" expanded="false" />
+                <element signature="e#12250#12551#0" expanded="false" />
+                <element signature="e#12302#12517#0" expanded="false" />
+                <element signature="e#12702#12850#0" expanded="false" />
+                <element signature="e#12889#13037#0" expanded="false" />
+                <element signature="e#13232#14013#0" expanded="false" />
+                <element signature="e#13323#13489#0" expanded="false" />
+                <element signature="e#13357#13465#0" expanded="false" />
+                <element signature="e#13512#13810#0" expanded="false" />
+                <element signature="e#13625#13791#0" expanded="false" />
+                <element signature="e#13659#13767#0" expanded="false" />
+                <element signature="e#14070#15044#0" expanded="false" />
+                <element signature="e#14124#14199#0" expanded="false" />
+                <element signature="e#14284#14673#0" expanded="false" />
+                <element signature="e#14850#14992#0" expanded="false" />
+                <element signature="e#15092#15687#0" expanded="false" />
+                <element signature="e#15208#15312#0" expanded="false" />
+                <element signature="e#15430#15615#0" expanded="false" />
+                <element signature="e#15519#15597#0" expanded="false" />
+                <element signature="e#15725#16310#0" expanded="false" />
+                <element signature="e#16029#16295#0" expanded="false" />
+                <element signature="e#16192#16277#0" expanded="false" />
+                <element signature="e#16351#16752#0" expanded="false" />
+                <element signature="e#16560#16736#0" expanded="false" />
+                <element signature="e#16800#20027#0" expanded="false" />
+                <element signature="e#16917#17308#0" expanded="false" />
+                <element signature="e#17110#17158#0" expanded="false" />
+                <element signature="e#17350#17584#0" expanded="false" />
+                <element signature="e#17392#17564#0" expanded="false" />
+                <element signature="e#17640#17694#0" expanded="false" />
+                <element signature="e#17731#18720#0" expanded="false" />
+                <element signature="e#17782#17902#0" expanded="false" />
+                <element signature="e#18034#18547#0" expanded="false" />
+                <element signature="e#18072#18234#0" expanded="false" />
+                <element signature="e#18582#18700#0" expanded="false" />
+                <element signature="e#18816#19163#0" expanded="false" />
+                <element signature="e#18961#19034#0" expanded="false" />
+                <element signature="e#19223#20013#0" expanded="false" />
+                <element signature="e#19453#19586#0" expanded="false" />
+                <element signature="e#19646#19995#0" expanded="false" />
+                <element signature="e#19718#19971#0" expanded="false" />
+                <element signature="e#19756#19943#0" expanded="false" />
+                <element signature="e#20066#21200#0" expanded="false" />
+                <element signature="e#20383#20438#0" expanded="false" />
+                <element signature="e#20444#20841#0" expanded="false" />
+                <element signature="e#20627#20800#0" expanded="false" />
+                <element signature="e#20928#21186#0" expanded="false" />
+                <element signature="e#20999#21166#0" expanded="false" />
+                <element signature="e#21033#21142#0" expanded="false" />
+                <element signature="e#21240#21462#0" expanded="false" />
+                <element signature="e#21268#21450#0" expanded="false" />
+                <element signature="e#21514#22108#0" expanded="false" />
+                <element signature="e#21741#21865#0" expanded="false" />
+                <element signature="e#21900#22096#0" expanded="false" />
+                <element signature="e#22149#23518#0" expanded="false" />
+                <element signature="e#22175#22289#0" expanded="false" />
+                <element signature="e#22323#22634#0" expanded="false" />
+                <element signature="e#22498#22618#0" expanded="false" />
+                <element signature="e#22662#23100#0" expanded="false" />
+                <element signature="e#22758#23086#0" expanded="false" />
+                <element signature="e#22833#23068#0" expanded="false" />
+                <element signature="e#23165#23469#0" expanded="false" />
+                <element signature="e#23244#23455#0" expanded="false" />
+                <element signature="e#23563#23602#0" expanded="false" />
+                <element signature="e#23642#23719#0" expanded="false" />
+                <element signature="e#23854#24076#0" expanded="false" />
+                <element signature="e#24010#24065#0" expanded="false" />
+                <element signature="e#24157#25377#0" expanded="false" />
+                <element signature="e#24205#25255#0" expanded="false" />
+                <element signature="e#24380#24525#0" expanded="false" />
+                <element signature="e#24867#25237#0" expanded="false" />
+                <element signature="e#24970#25213#0" expanded="false" />
+                <element signature="e#25300#25363#0" expanded="false" />
+                <element signature="e#25419#25922#0" expanded="false" />
+                <element signature="e#25528#25908#0" expanded="false" />
+                <element signature="e#25582#25765#0" expanded="false" />
+                <element signature="e#25970#26599#0" expanded="false" />
+                <element signature="e#26247#26337#0" expanded="false" />
+                <element signature="e#26372#26537#0" expanded="false" />
+                <element signature="e#26650#27119#0" expanded="false" />
+                <element signature="e#27160#27348#0" expanded="false" />
+                <element signature="e#27222#27338#0" expanded="false" />
+                <element signature="e#27388#28676#0" expanded="false" />
+                <element signature="e#27648#28666#0" expanded="false" />
+                <element signature="e#27927#28345#0" expanded="false" />
+                <element signature="e#28109#28325#0" expanded="false" />
+                <element signature="e#28143#28301#0" expanded="false" />
+                <element signature="e#28351#28652#0" expanded="false" />
+                <element signature="e#28467#28632#0" expanded="false" />
+                <element signature="e#28706#30666#0" expanded="false" />
+                <element signature="e#28739#30660#0" expanded="false" />
+                <element signature="e#28885#29170#0" expanded="false" />
+                <element signature="e#28916#29009#0" expanded="false" />
+                <element signature="e#29052#29102#0" expanded="false" />
+                <element signature="e#29194#29356#0" expanded="false" />
+                <element signature="e#29547#30650#0" expanded="false" />
+                <element signature="e#29576#29628#0" expanded="false" />
+                <element signature="e#29658#29824#0" expanded="false" />
+                <element signature="e#29864#30022#0" expanded="false" />
+                <element signature="e#30155#30342#0" expanded="false" />
+                <element signature="e#30543#30629#0" expanded="false" />
+                <element signature="e#30697#32304#0" expanded="false" />
+                <element signature="e#30846#32297#0" expanded="false" />
+                <element signature="e#30944#31516#0" expanded="false" />
+                <element signature="e#31059#31502#0" expanded="false" />
+                <element signature="e#31219#31483#0" expanded="false" />
+                <element signature="e#31266#31398#0" expanded="false" />
+                <element signature="e#31540#32287#0" expanded="false" />
+                <element signature="e#31742#31920#0" expanded="false" />
+                <element signature="e#32000#32273#0" expanded="false" />
+                <element signature="e#32043#32161#0" expanded="false" />
+                <element signature="e#32327#33682#0" expanded="false" />
+                <element signature="e#32360#33676#0" expanded="false" />
+                <element signature="e#32889#33666#0" expanded="false" />
+                <element signature="e#32918#32970#0" expanded="false" />
+                <element signature="e#33006#33136#0" expanded="false" />
+                <element signature="e#33267#33365#0" expanded="false" />
+                <element signature="e#33566#33645#0" expanded="false" />
+                <element signature="e#33713#34081#0" expanded="false" />
+                <element signature="e#33770#34017#0" expanded="false" />
+                <element signature="e#33906#34007#0" expanded="false" />
+                <element signature="e#34034#34074#0" expanded="false" />
+                <element signature="e#34103#34614#0" expanded="false" />
+                <element signature="e#34137#34608#0" expanded="false" />
+                <element signature="e#35069#35158#0" expanded="false" />
+                <element signature="e#35180#35273#0" expanded="false" />
+                <element signature="e#35409#35738#0" expanded="false" />
+                <element signature="e#35526#35676#0" expanded="false" />
+                <element signature="e#35763#35799#0" expanded="false" />
+                <element signature="e#35820#36062#0" expanded="false" />
+                <element signature="e#35854#35914#0" expanded="false" />
+                <element signature="e#35855#35913#0" expanded="false" />
+                <element signature="e#35988#36051#0" expanded="false" />
+                <element signature="e#35989#36050#0" expanded="false" />
+                <element signature="e#36458#36672#0" expanded="false" />
+                <element signature="e#36735#37067#0" expanded="false" />
+                <element signature="e#36829#37056#0" expanded="false" />
+                <element signature="e#36888#37042#0" expanded="false" />
+                <element signature="e#37813#38026#0" expanded="false" />
+                <element signature="e#41878#41930#0" expanded="false" />
+                <element signature="e#41937#41970#0" expanded="false" />
+                <element signature="e#42005#42081#0" expanded="false" />
+                <element signature="e#42119#43493#0" expanded="false" />
+                <element signature="e#42608#43134#0" expanded="false" />
+                <element signature="e#42672#42828#0" expanded="false" />
+                <element signature="e#43524#43615#0" expanded="false" />
+                <element signature="e#43655#43903#0" expanded="false" />
+                <element signature="e#43941#44276#0" expanded="false" />
+                <element signature="e#44307#47465#0" expanded="false" />
+                <element signature="e#44346#44402#0" expanded="false" />
+                <element signature="e#44439#44522#0" expanded="false" />
+                <element signature="e#44560#44655#0" expanded="false" />
+                <element signature="e#44693#44792#0" expanded="false" />
+                <element signature="e#44844#44920#0" expanded="false" />
+                <element signature="e#44964#45037#0" expanded="false" />
+                <element signature="e#45088#45162#0" expanded="false" />
+                <element signature="e#45206#45253#0" expanded="false" />
+                <element signature="e#45291#45338#0" expanded="false" />
+                <element signature="e#45382#45430#0" expanded="false" />
+                <element signature="e#45566#45650#0" expanded="false" />
+                <element signature="e#45678#45762#0" expanded="false" />
+                <element signature="e#45803#47304#0" expanded="false" />
+                <element signature="e#45824#47293#0" expanded="false" />
+                <element signature="e#45968#46037#0" expanded="false" />
+                <element signature="e#46081#46151#0" expanded="false" />
+                <element signature="e#46206#47279#0" expanded="false" />
+                <element signature="e#46327#46493#0" expanded="false" />
+                <element signature="e#46694#46790#0" expanded="false" />
+                <element signature="e#46832#47026#0" expanded="false" />
+                <element signature="e#47067#47261#0" expanded="false" />
+                <element signature="e#47339#47458#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,6 +361,9 @@
         <option value="$PROJECT_DIR$/resource/rtc/firebase.js" />
         <option value="$PROJECT_DIR$/resource/rtc/RTC.html" />
         <option value="$PROJECT_DIR$/resource/serverless/js/serverless-webrtc.js" />
+        <option value="$PROJECT_DIR$/resource/google/11.js" />
+        <option value="$PROJECT_DIR$/resource/google/adapter.js" />
+        <option value="$PROJECT_DIR$/resource/google/main.js" />
       </list>
     </option>
   </component>
@@ -203,20 +421,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRTC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRTC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -234,6 +438,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -244,7 +449,12 @@
       <recent name="D:\project\WebRTC\resource" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.RTC.html">
+    <configuration default="false" name="RTC.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:1182/WebRTC/resource/rtc/RTC.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -460,7 +670,14 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.RTC.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.RTC.html" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -491,7 +708,8 @@
       <updated>1392279593786</updated>
       <workItem from="1392279596588" duration="63000" />
       <workItem from="1392279711132" duration="233000" />
-      <workItem from="1392515301098" duration="5806000" />
+      <workItem from="1392515301098" duration="9339000" />
+      <workItem from="1392599036591" duration="128000" />
     </task>
     <task id="LOCAL-00001" summary="fireBase">
       <created>1392291350520</created>
@@ -501,36 +719,39 @@
       <created>1392515472340</created>
       <updated>1392515472340</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="server&#10;">
+      <created>1392558061297</created>
+      <updated>1392558061297</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6102000" />
+    <option name="totallyTimeSpent" value="9763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.9506369" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.83280253" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26751593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23716012" sideWeight="0.4262295" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18504532" sideWeight="0.4262295" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -538,6 +759,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -557,7 +779,8 @@
     </option>
     <MESSAGE value="fireBase" />
     <MESSAGE value="serverLess" />
-    <option name="LAST_COMMIT_MESSAGE" value="serverLess" />
+    <MESSAGE value="server&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="server&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -565,41 +788,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resource/rtc/RTC.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="28" selection-start="4291" selection-end="4291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4784">
+        <state line="249" column="52" selection-start="6896" selection-end="6919" vertical-scroll-proportion="0.0" vertical-offset="3216" max-vertical-offset="4784">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/rtc/RTCMultiConnection-v1.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1130" column="32" selection-start="37532" selection-end="37532" vertical-scroll-proportion="0.0" vertical-offset="3568" max-vertical-offset="3568">
+        <state line="62" column="17" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6176">
           <folding>
             <element signature="e#154#208#0" expanded="false" />
             <element signature="e#274#341#0" expanded="false" />
-            <element signature="e#461#9683#0" expanded="false" />
-            <element signature="e#535#870#0" expanded="false" />
-            <element signature="e#761#858#0" expanded="false" />
             <element signature="e#915#1025#0" expanded="false" />
             <element signature="e#1107#1689#0" expanded="false" />
             <element signature="e#1257#1494#0" expanded="false" />
             <element signature="e#1546#1677#0" expanded="false" />
-            <element signature="e#1809#3518#0" expanded="false" />
-            <element signature="e#1855#3475#0" expanded="false" />
-            <element signature="e#2192#3109#0" expanded="false" />
-            <element signature="e#2518#2595#0" expanded="false" />
-            <element signature="e#2650#2714#0" expanded="false" />
-            <element signature="e#3150#3424#0" expanded="false" />
-            <element signature="e#3544#5278#0" expanded="false" />
-            <element signature="e#3626#4890#0" expanded="false" />
-            <element signature="e#3676#4215#0" expanded="false" />
-            <element signature="e#3814#3918#0" expanded="false" />
-            <element signature="e#4256#4876#0" expanded="false" />
             <element signature="e#4443#4557#0" expanded="false" />
             <element signature="e#4674#4788#0" expanded="false" />
             <element signature="e#4957#5038#0" expanded="false" />
-            <element signature="e#5318#5792#0" expanded="false" />
             <element signature="e#5701#5780#0" expanded="false" />
-            <element signature="e#5848#8972#0" expanded="false" />
             <element signature="e#6155#6247#0" expanded="false" />
             <element signature="e#6298#6430#0" expanded="false" />
             <element signature="e#6330#6415#0" expanded="false" />
@@ -758,7 +965,6 @@
             <element signature="e#34137#34608#0" expanded="false" />
             <element signature="e#35069#35158#0" expanded="false" />
             <element signature="e#35180#35273#0" expanded="false" />
-            <element signature="e#35301#35365#0" expanded="false" />
             <element signature="e#35409#35738#0" expanded="false" />
             <element signature="e#35526#35676#0" expanded="false" />
             <element signature="e#35763#35799#0" expanded="false" />
@@ -767,18 +973,243 @@
             <element signature="e#35855#35913#0" expanded="false" />
             <element signature="e#35988#36051#0" expanded="false" />
             <element signature="e#35989#36050#0" expanded="false" />
-            <element signature="e#36203#36328#0" expanded="false" />
             <element signature="e#36458#36672#0" expanded="false" />
             <element signature="e#36735#37067#0" expanded="false" />
             <element signature="e#36829#37056#0" expanded="false" />
             <element signature="e#36888#37042#0" expanded="false" />
-            <element signature="e#37127#37498#0" expanded="false" />
-            <element signature="e#37249#37461#0" expanded="false" />
-            <element signature="e#37532#38063#0" expanded="false" />
             <element signature="e#37813#38026#0" expanded="false" />
-            <element signature="e#38128#38194#0" expanded="false" />
-            <element signature="e#38275#38840#0" expanded="false" />
+            <element signature="e#41878#41930#0" expanded="false" />
             <element signature="e#41937#41970#0" expanded="false" />
+            <element signature="e#42005#42081#0" expanded="false" />
+            <element signature="e#42119#43493#0" expanded="false" />
+            <element signature="e#42608#43134#0" expanded="false" />
+            <element signature="e#42672#42828#0" expanded="false" />
+            <element signature="e#43524#43615#0" expanded="false" />
+            <element signature="e#43655#43903#0" expanded="false" />
+            <element signature="e#43941#44276#0" expanded="false" />
+            <element signature="e#44307#47465#0" expanded="false" />
+            <element signature="e#44346#44402#0" expanded="false" />
+            <element signature="e#44439#44522#0" expanded="false" />
+            <element signature="e#44560#44655#0" expanded="false" />
+            <element signature="e#44693#44792#0" expanded="false" />
+            <element signature="e#44844#44920#0" expanded="false" />
+            <element signature="e#44964#45037#0" expanded="false" />
+            <element signature="e#45088#45162#0" expanded="false" />
+            <element signature="e#45206#45253#0" expanded="false" />
+            <element signature="e#45291#45338#0" expanded="false" />
+            <element signature="e#45382#45430#0" expanded="false" />
+            <element signature="e#45566#45650#0" expanded="false" />
+            <element signature="e#45678#45762#0" expanded="false" />
+            <element signature="e#45803#47304#0" expanded="false" />
+            <element signature="e#45824#47293#0" expanded="false" />
+            <element signature="e#45968#46037#0" expanded="false" />
+            <element signature="e#46081#46151#0" expanded="false" />
+            <element signature="e#46206#47279#0" expanded="false" />
+            <element signature="e#46327#46493#0" expanded="false" />
+            <element signature="e#46694#46790#0" expanded="false" />
+            <element signature="e#46832#47026#0" expanded="false" />
+            <element signature="e#47067#47261#0" expanded="false" />
+            <element signature="e#47339#47458#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/rtc/RTC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="28" selection-start="4291" selection-end="4291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4784">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/rtc/RTCMultiConnection-v1.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1130" column="32" selection-start="37532" selection-end="37532" vertical-scroll-proportion="0.0" vertical-offset="3568" max-vertical-offset="3568">
+          <folding>
+            <element signature="e#154#208#0" expanded="false" />
+            <element signature="e#274#341#0" expanded="false" />
+            <element signature="e#915#1025#0" expanded="false" />
+            <element signature="e#1107#1689#0" expanded="false" />
+            <element signature="e#1257#1494#0" expanded="false" />
+            <element signature="e#1546#1677#0" expanded="false" />
+            <element signature="e#4443#4557#0" expanded="false" />
+            <element signature="e#4674#4788#0" expanded="false" />
+            <element signature="e#4957#5038#0" expanded="false" />
+            <element signature="e#5701#5780#0" expanded="false" />
+            <element signature="e#6155#6247#0" expanded="false" />
+            <element signature="e#6298#6430#0" expanded="false" />
+            <element signature="e#6330#6415#0" expanded="false" />
+            <element signature="e#6456#6799#0" expanded="false" />
+            <element signature="e#6494#6654#0" expanded="false" />
+            <element signature="e#6527#6602#0" expanded="false" />
+            <element signature="e#6686#6784#0" expanded="false" />
+            <element signature="e#6842#7113#0" expanded="false" />
+            <element signature="e#6880#6968#0" expanded="false" />
+            <element signature="e#7000#7098#0" expanded="false" />
+            <element signature="e#7252#8829#0" expanded="false" />
+            <element signature="e#7335#8163#0" expanded="false" />
+            <element signature="e#7469#7746#0" expanded="false" />
+            <element signature="e#7811#7918#0" expanded="false" />
+            <element signature="e#8201#8815#0" expanded="false" />
+            <element signature="e#8367#8734#0" expanded="false" />
+            <element signature="e#9076#9214#0" expanded="false" />
+            <element signature="e#9249#9340#0" expanded="false" />
+            <element signature="e#9394#9650#0" expanded="false" />
+            <element signature="e#9442#9629#0" expanded="false" />
+            <element signature="e#9481#9613#0" expanded="false" />
+            <element signature="e#9721#28683#0" expanded="false" />
+            <element signature="e#10156#21210#0" expanded="false" />
+            <element signature="e#10189#10623#0" expanded="false" />
+            <element signature="e#10311#10609#0" expanded="false" />
+            <element signature="e#10680#10768#0" expanded="false" />
+            <element signature="e#10966#13189#0" expanded="false" />
+            <element signature="e#11052#11390#0" expanded="false" />
+            <element signature="e#11096#11370#0" expanded="false" />
+            <element signature="e#11178#11348#0" expanded="false" />
+            <element signature="e#11435#11652#0" expanded="false" />
+            <element signature="e#11474#11632#0" expanded="false" />
+            <element signature="e#11697#12662#0" expanded="false" />
+            <element signature="e#12250#12551#0" expanded="false" />
+            <element signature="e#12302#12517#0" expanded="false" />
+            <element signature="e#12702#12850#0" expanded="false" />
+            <element signature="e#12889#13037#0" expanded="false" />
+            <element signature="e#13232#14013#0" expanded="false" />
+            <element signature="e#13323#13489#0" expanded="false" />
+            <element signature="e#13357#13465#0" expanded="false" />
+            <element signature="e#13512#13810#0" expanded="false" />
+            <element signature="e#13625#13791#0" expanded="false" />
+            <element signature="e#13659#13767#0" expanded="false" />
+            <element signature="e#14070#15044#0" expanded="false" />
+            <element signature="e#14124#14199#0" expanded="false" />
+            <element signature="e#14284#14673#0" expanded="false" />
+            <element signature="e#14850#14992#0" expanded="false" />
+            <element signature="e#15092#15687#0" expanded="false" />
+            <element signature="e#15208#15312#0" expanded="false" />
+            <element signature="e#15430#15615#0" expanded="false" />
+            <element signature="e#15519#15597#0" expanded="false" />
+            <element signature="e#15725#16310#0" expanded="false" />
+            <element signature="e#16029#16295#0" expanded="false" />
+            <element signature="e#16192#16277#0" expanded="false" />
+            <element signature="e#16351#16752#0" expanded="false" />
+            <element signature="e#16560#16736#0" expanded="false" />
+            <element signature="e#16800#20027#0" expanded="false" />
+            <element signature="e#16917#17308#0" expanded="false" />
+            <element signature="e#17110#17158#0" expanded="false" />
+            <element signature="e#17350#17584#0" expanded="false" />
+            <element signature="e#17392#17564#0" expanded="false" />
+            <element signature="e#17640#17694#0" expanded="false" />
+            <element signature="e#17731#18720#0" expanded="false" />
+            <element signature="e#17782#17902#0" expanded="false" />
+            <element signature="e#18034#18547#0" expanded="false" />
+            <element signature="e#18072#18234#0" expanded="false" />
+            <element signature="e#18582#18700#0" expanded="false" />
+            <element signature="e#18816#19163#0" expanded="false" />
+            <element signature="e#18961#19034#0" expanded="false" />
+            <element signature="e#19223#20013#0" expanded="false" />
+            <element signature="e#19453#19586#0" expanded="false" />
+            <element signature="e#19646#19995#0" expanded="false" />
+            <element signature="e#19718#19971#0" expanded="false" />
+            <element signature="e#19756#19943#0" expanded="false" />
+            <element signature="e#20066#21200#0" expanded="false" />
+            <element signature="e#20383#20438#0" expanded="false" />
+            <element signature="e#20444#20841#0" expanded="false" />
+            <element signature="e#20627#20800#0" expanded="false" />
+            <element signature="e#20928#21186#0" expanded="false" />
+            <element signature="e#20999#21166#0" expanded="false" />
+            <element signature="e#21033#21142#0" expanded="false" />
+            <element signature="e#21240#21462#0" expanded="false" />
+            <element signature="e#21268#21450#0" expanded="false" />
+            <element signature="e#21514#22108#0" expanded="false" />
+            <element signature="e#21741#21865#0" expanded="false" />
+            <element signature="e#21900#22096#0" expanded="false" />
+            <element signature="e#22149#23518#0" expanded="false" />
+            <element signature="e#22175#22289#0" expanded="false" />
+            <element signature="e#22323#22634#0" expanded="false" />
+            <element signature="e#22498#22618#0" expanded="false" />
+            <element signature="e#22662#23100#0" expanded="false" />
+            <element signature="e#22758#23086#0" expanded="false" />
+            <element signature="e#22833#23068#0" expanded="false" />
+            <element signature="e#23165#23469#0" expanded="false" />
+            <element signature="e#23244#23455#0" expanded="false" />
+            <element signature="e#23563#23602#0" expanded="false" />
+            <element signature="e#23642#23719#0" expanded="false" />
+            <element signature="e#23854#24076#0" expanded="false" />
+            <element signature="e#24010#24065#0" expanded="false" />
+            <element signature="e#24157#25377#0" expanded="false" />
+            <element signature="e#24205#25255#0" expanded="false" />
+            <element signature="e#24380#24525#0" expanded="false" />
+            <element signature="e#24867#25237#0" expanded="false" />
+            <element signature="e#24970#25213#0" expanded="false" />
+            <element signature="e#25300#25363#0" expanded="false" />
+            <element signature="e#25419#25922#0" expanded="false" />
+            <element signature="e#25528#25908#0" expanded="false" />
+            <element signature="e#25582#25765#0" expanded="false" />
+            <element signature="e#25970#26599#0" expanded="false" />
+            <element signature="e#26247#26337#0" expanded="false" />
+            <element signature="e#26372#26537#0" expanded="false" />
+            <element signature="e#26650#27119#0" expanded="false" />
+            <element signature="e#27160#27348#0" expanded="false" />
+            <element signature="e#27222#27338#0" expanded="false" />
+            <element signature="e#27388#28676#0" expanded="false" />
+            <element signature="e#27648#28666#0" expanded="false" />
+            <element signature="e#27927#28345#0" expanded="false" />
+            <element signature="e#28109#28325#0" expanded="false" />
+            <element signature="e#28143#28301#0" expanded="false" />
+            <element signature="e#28351#28652#0" expanded="false" />
+            <element signature="e#28467#28632#0" expanded="false" />
+            <element signature="e#28706#30666#0" expanded="false" />
+            <element signature="e#28739#30660#0" expanded="false" />
+            <element signature="e#28885#29170#0" expanded="false" />
+            <element signature="e#28916#29009#0" expanded="false" />
+            <element signature="e#29052#29102#0" expanded="false" />
+            <element signature="e#29194#29356#0" expanded="false" />
+            <element signature="e#29547#30650#0" expanded="false" />
+            <element signature="e#29576#29628#0" expanded="false" />
+            <element signature="e#29658#29824#0" expanded="false" />
+            <element signature="e#29864#30022#0" expanded="false" />
+            <element signature="e#30155#30342#0" expanded="false" />
+            <element signature="e#30543#30629#0" expanded="false" />
+            <element signature="e#30697#32304#0" expanded="false" />
+            <element signature="e#30846#32297#0" expanded="false" />
+            <element signature="e#30944#31516#0" expanded="false" />
+            <element signature="e#31059#31502#0" expanded="false" />
+            <element signature="e#31219#31483#0" expanded="false" />
+            <element signature="e#31266#31398#0" expanded="false" />
+            <element signature="e#31540#32287#0" expanded="false" />
+            <element signature="e#31742#31920#0" expanded="false" />
+            <element signature="e#32000#32273#0" expanded="false" />
+            <element signature="e#32043#32161#0" expanded="false" />
+            <element signature="e#32327#33682#0" expanded="false" />
+            <element signature="e#32360#33676#0" expanded="false" />
+            <element signature="e#32889#33666#0" expanded="false" />
+            <element signature="e#32918#32970#0" expanded="false" />
+            <element signature="e#33006#33136#0" expanded="false" />
+            <element signature="e#33267#33365#0" expanded="false" />
+            <element signature="e#33566#33645#0" expanded="false" />
+            <element signature="e#33713#34081#0" expanded="false" />
+            <element signature="e#33770#34017#0" expanded="false" />
+            <element signature="e#33906#34007#0" expanded="false" />
+            <element signature="e#34034#34074#0" expanded="false" />
+            <element signature="e#34103#34614#0" expanded="false" />
+            <element signature="e#34137#34608#0" expanded="false" />
+            <element signature="e#35069#35158#0" expanded="false" />
+            <element signature="e#35180#35273#0" expanded="false" />
+            <element signature="e#35409#35738#0" expanded="false" />
+            <element signature="e#35526#35676#0" expanded="false" />
+            <element signature="e#35763#35799#0" expanded="false" />
+            <element signature="e#35820#36062#0" expanded="false" />
+            <element signature="e#35854#35914#0" expanded="false" />
+            <element signature="e#35855#35913#0" expanded="false" />
+            <element signature="e#35988#36051#0" expanded="false" />
+            <element signature="e#35989#36050#0" expanded="false" />
+            <element signature="e#36458#36672#0" expanded="false" />
+            <element signature="e#36735#37067#0" expanded="false" />
+            <element signature="e#36829#37056#0" expanded="false" />
+            <element signature="e#36888#37042#0" expanded="false" />
+            <element signature="e#37813#38026#0" expanded="false" />
+            <element signature="e#41878#41930#0" expanded="false" />
+            <element signature="e#41937#41970#0" expanded="false" />
+            <element signature="e#42005#42081#0" expanded="false" />
+            <element signature="e#42119#43493#0" expanded="false" />
             <element signature="e#42608#43134#0" expanded="false" />
             <element signature="e#42672#42828#0" expanded="false" />
             <element signature="e#43524#43615#0" expanded="false" />
@@ -820,9 +1251,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/fireBase/chat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="656">
-          <folding />
-        </state>
+        <state line="9" column="53" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="656" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/rtc/RTC.html">
@@ -838,30 +1267,14 @@
           <folding>
             <element signature="e#154#208#0" expanded="false" />
             <element signature="e#274#341#0" expanded="false" />
-            <element signature="e#461#9683#0" expanded="false" />
-            <element signature="e#535#870#0" expanded="false" />
-            <element signature="e#761#858#0" expanded="false" />
             <element signature="e#915#1025#0" expanded="false" />
             <element signature="e#1107#1689#0" expanded="false" />
             <element signature="e#1257#1494#0" expanded="false" />
             <element signature="e#1546#1677#0" expanded="false" />
-            <element signature="e#1809#3518#0" expanded="false" />
-            <element signature="e#1855#3475#0" expanded="false" />
-            <element signature="e#2192#3109#0" expanded="false" />
-            <element signature="e#2518#2595#0" expanded="false" />
-            <element signature="e#2650#2714#0" expanded="false" />
-            <element signature="e#3150#3424#0" expanded="false" />
-            <element signature="e#3544#5278#0" expanded="false" />
-            <element signature="e#3626#4890#0" expanded="false" />
-            <element signature="e#3676#4215#0" expanded="false" />
-            <element signature="e#3814#3918#0" expanded="false" />
-            <element signature="e#4256#4876#0" expanded="false" />
             <element signature="e#4443#4557#0" expanded="false" />
             <element signature="e#4674#4788#0" expanded="false" />
             <element signature="e#4957#5038#0" expanded="false" />
-            <element signature="e#5318#5792#0" expanded="false" />
             <element signature="e#5701#5780#0" expanded="false" />
-            <element signature="e#5848#8972#0" expanded="false" />
             <element signature="e#6155#6247#0" expanded="false" />
             <element signature="e#6298#6430#0" expanded="false" />
             <element signature="e#6330#6415#0" expanded="false" />
@@ -1020,7 +1433,6 @@
             <element signature="e#34137#34608#0" expanded="false" />
             <element signature="e#35069#35158#0" expanded="false" />
             <element signature="e#35180#35273#0" expanded="false" />
-            <element signature="e#35301#35365#0" expanded="false" />
             <element signature="e#35409#35738#0" expanded="false" />
             <element signature="e#35526#35676#0" expanded="false" />
             <element signature="e#35763#35799#0" expanded="false" />
@@ -1029,18 +1441,15 @@
             <element signature="e#35855#35913#0" expanded="false" />
             <element signature="e#35988#36051#0" expanded="false" />
             <element signature="e#35989#36050#0" expanded="false" />
-            <element signature="e#36203#36328#0" expanded="false" />
             <element signature="e#36458#36672#0" expanded="false" />
             <element signature="e#36735#37067#0" expanded="false" />
             <element signature="e#36829#37056#0" expanded="false" />
             <element signature="e#36888#37042#0" expanded="false" />
-            <element signature="e#37127#37498#0" expanded="false" />
-            <element signature="e#37249#37461#0" expanded="false" />
-            <element signature="e#37532#38063#0" expanded="false" />
             <element signature="e#37813#38026#0" expanded="false" />
-            <element signature="e#38128#38194#0" expanded="false" />
-            <element signature="e#38275#38840#0" expanded="false" />
+            <element signature="e#41878#41930#0" expanded="false" />
             <element signature="e#41937#41970#0" expanded="false" />
+            <element signature="e#42005#42081#0" expanded="false" />
+            <element signature="e#42119#43493#0" expanded="false" />
             <element signature="e#42608#43134#0" expanded="false" />
             <element signature="e#42672#42828#0" expanded="false" />
             <element signature="e#43524#43615#0" expanded="false" />
@@ -1082,9 +1491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/fireBase/chat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="9" column="53" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/rtc/RTC.html">
@@ -1116,36 +1523,119 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resource/serverless/js/jquery-2.0.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.9240507" vertical-offset="912" max-vertical-offset="140176" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/serverless/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1021" column="4" selection-start="28168" selection-end="28168" vertical-scroll-proportion="0.33333334" vertical-offset="15906" max-vertical-offset="36224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/serverless/js/adapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/server/node_modules/webrtc.io/lib/webrtc.io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-12.162896" vertical-offset="5376" max-vertical-offset="5824" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5769231" vertical-offset="656" max-vertical-offset="1072" />
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/fireBase/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="53" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/serverless/js/file-transfer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.747253" vertical-offset="2160" max-vertical-offset="2704" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/server/node_modules/webrtc.io/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/server/site/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/server/site/server-secure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.811138" vertical-offset="2400" max-vertical-offset="3040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/rtc/firebase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3152" column="0" selection-start="107373" selection-end="107373" vertical-scroll-proportion="1.295082" vertical-offset="49800" max-vertical-offset="50528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/serverless/js/serverless-webrtc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="37" selection-start="1956" selection-end="1956" vertical-scroll-proportion="-3.1439588" vertical-offset="2327" max-vertical-offset="4048" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/client/white_paper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.302778" vertical-offset="1909" max-vertical-offset="2368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/serverless/serverless-webrtc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.2" vertical-offset="1512" max-vertical-offset="1872" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/google/adapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="1" selection-start="4771" selection-end="4771" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2304" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/google/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="38" selection-start="4233" selection-end="4250" vertical-scroll-proportion="0.54565704" vertical-offset="1963" max-vertical-offset="11328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/rtc/RTC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="249" column="52" selection-start="6896" selection-end="6919" vertical-scroll-proportion="0.0" vertical-offset="3216" max-vertical-offset="4784">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resource/rtc/RTCMultiConnection-v1.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1309" column="30" selection-start="43223" selection-end="43223" vertical-scroll-proportion="1.3305786" vertical-offset="2556" max-vertical-offset="3568">
+        <state line="62" column="17" selection-start="1787" selection-end="1787" vertical-scroll-proportion="8.369231" vertical-offset="0" max-vertical-offset="6176">
           <folding>
             <element signature="e#154#208#0" expanded="false" />
             <element signature="e#274#341#0" expanded="false" />
-            <element signature="e#461#9683#0" expanded="false" />
-            <element signature="e#535#870#0" expanded="false" />
-            <element signature="e#761#858#0" expanded="false" />
             <element signature="e#915#1025#0" expanded="false" />
             <element signature="e#1107#1689#0" expanded="false" />
             <element signature="e#1257#1494#0" expanded="false" />
             <element signature="e#1546#1677#0" expanded="false" />
-            <element signature="e#1809#3518#0" expanded="false" />
-            <element signature="e#1855#3475#0" expanded="false" />
-            <element signature="e#2192#3109#0" expanded="false" />
-            <element signature="e#2518#2595#0" expanded="false" />
-            <element signature="e#2650#2714#0" expanded="false" />
-            <element signature="e#3150#3424#0" expanded="false" />
-            <element signature="e#3544#5278#0" expanded="false" />
-            <element signature="e#3626#4890#0" expanded="false" />
-            <element signature="e#3676#4215#0" expanded="false" />
-            <element signature="e#3814#3918#0" expanded="false" />
-            <element signature="e#4256#4876#0" expanded="false" />
             <element signature="e#4443#4557#0" expanded="false" />
             <element signature="e#4674#4788#0" expanded="false" />
             <element signature="e#4957#5038#0" expanded="false" />
-            <element signature="e#5318#5792#0" expanded="false" />
             <element signature="e#5701#5780#0" expanded="false" />
-            <element signature="e#5848#8972#0" expanded="false" />
             <element signature="e#6155#6247#0" expanded="false" />
             <element signature="e#6298#6430#0" expanded="false" />
             <element signature="e#6330#6415#0" expanded="false" />
@@ -1304,7 +1794,6 @@
             <element signature="e#34137#34608#0" expanded="false" />
             <element signature="e#35069#35158#0" expanded="false" />
             <element signature="e#35180#35273#0" expanded="false" />
-            <element signature="e#35301#35365#0" expanded="false" />
             <element signature="e#35409#35738#0" expanded="false" />
             <element signature="e#35526#35676#0" expanded="false" />
             <element signature="e#35763#35799#0" expanded="false" />
@@ -1313,18 +1802,15 @@
             <element signature="e#35855#35913#0" expanded="false" />
             <element signature="e#35988#36051#0" expanded="false" />
             <element signature="e#35989#36050#0" expanded="false" />
-            <element signature="e#36203#36328#0" expanded="false" />
             <element signature="e#36458#36672#0" expanded="false" />
             <element signature="e#36735#37067#0" expanded="false" />
             <element signature="e#36829#37056#0" expanded="false" />
             <element signature="e#36888#37042#0" expanded="false" />
-            <element signature="e#37127#37498#0" expanded="false" />
-            <element signature="e#37249#37461#0" expanded="false" />
-            <element signature="e#37532#38063#0" expanded="false" />
             <element signature="e#37813#38026#0" expanded="false" />
-            <element signature="e#38128#38194#0" expanded="false" />
-            <element signature="e#38275#38840#0" expanded="false" />
+            <element signature="e#41878#41930#0" expanded="false" />
             <element signature="e#41937#41970#0" expanded="false" />
+            <element signature="e#42005#42081#0" expanded="false" />
+            <element signature="e#42119#43493#0" expanded="false" />
             <element signature="e#42608#43134#0" expanded="false" />
             <element signature="e#42672#42828#0" expanded="false" />
             <element signature="e#43524#43615#0" expanded="false" />
@@ -1354,127 +1840,6 @@
             <element signature="e#47067#47261#0" expanded="false" />
             <element signature="e#47339#47458#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/serverless/js/jquery-2.0.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.9240507" vertical-offset="912" max-vertical-offset="140176">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/serverless/serverless-webrtc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/serverless/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1021" column="4" selection-start="28168" selection-end="28168" vertical-scroll-proportion="0.33333334" vertical-offset="15906" max-vertical-offset="36224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/serverless/js/adapter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/server/node_modules/webrtc.io/lib/webrtc.io.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-12.162896" vertical-offset="5376" max-vertical-offset="5824">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5769231" vertical-offset="656" max-vertical-offset="1072">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/fireBase/chat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/rtc/firebase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3152" column="0" selection-start="107373" selection-end="107373" vertical-scroll-proportion="0.78280544" vertical-offset="50086" max-vertical-offset="50528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/serverless/js/serverless-webrtc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="24" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.5633484" vertical-offset="407" max-vertical-offset="4048">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/serverless/js/file-transfer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.747253" vertical-offset="2160" max-vertical-offset="2704">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/server/node_modules/webrtc.io/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/server/site/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/server/site/server-secure.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/rtc/RTC.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="28" selection-start="4291" selection-end="4291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.811138" vertical-offset="2400" max-vertical-offset="3040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/webRTCCopy/client/white_paper.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="78.2" vertical-offset="1955" max-vertical-offset="2368">
-          <folding />
         </state>
       </provider>
     </entry>

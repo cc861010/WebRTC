@@ -1,0 +1,33 @@
+<!doctype html><title>Raw JS test</title>
+<script src="/p.js"></script>
+<script>
+	var p = P.create();
+
+	var onrampServerAddress = 'ws://' + location.hostname + ':20500/';
+
+	// Establish a connection to an onramp server. The onramp
+	// server speaks the 'p' protocol and will allow us to make
+	// connections to peers.
+	console.log('connecting to onramp server at ' + onrampServerAddress);
+	var onramp = p.connect(onrampServerAddress);
+	
+	// Await for a connection to occur via the onramp peer.
+	onramp.on('connection', function(peer){
+		console.log(peer.address, ' connecting');
+		
+		// Whenever we receive a message, output it and respond
+		// with a 'pong!' after waiting for one second.
+		peer.on('message', function(message){
+			console.log(peer.address, ' --> ', message);
+			setTimeout(function(){
+				console.log(peer.address, ' <-- ', 'pong!');
+				peer.send('pong!');
+			}, 1000);
+		});
+	});
+
+	// Get notifications of closed connections
+	p.on('disconnection', function(peer){
+		console.log(peer.address, ' disconnected');
+	});
+</script>
