@@ -19,35 +19,26 @@ public class Analyse {
         System.out.println("stop---->");
     }
     public static void main(String[] args) throws IOException, NoSuchMethodException {
-        new Thread(new controller(new Analyse())).start();
-
-        Socket client  = new Socket("localhost",14333);
-        OutputStreamWriter OutputStreamWriter = new OutputStreamWriter(client.getOutputStream());
-        OutputStreamWriter.write("Start");
-        OutputStreamWriter.close();
-        client.close();
-
-        client  = new Socket("localhost",14333);
-        OutputStreamWriter = new OutputStreamWriter(client.getOutputStream());
-        OutputStreamWriter.write("Stop");
-        OutputStreamWriter.close();
-        client.close();
+        Controller controller = new Controller();
+        controller.orderAcceptedBy(new Analyse());
+        controller.giveOrder("Start");
+        controller.giveOrder("Stop");
     }
 }
 
-class controller implements Runnable{
+
+
+class Controller implements Runnable{
     private ServerSocket serverSocket;
     private String command;
     private Analyse analyse;
-
-    controller(Analyse analyse){
-        this.analyse = analyse;
-    }
+    private String host = "localhost";
+    private int port = 1433;
 
     @Override
     public void run() {
         try {
-            serverSocket  = new ServerSocket(14333);
+            serverSocket  = new ServerSocket(port);
             while(true){
                 Socket socket = serverSocket.accept();
                 InputStreamReader reader = new InputStreamReader(socket.getInputStream());
@@ -63,7 +54,7 @@ class controller implements Runnable{
         }
     }
 
-    public void control(Analyse analyse,String command){
+    private void control(Analyse analyse,String command){
         if(!command.isEmpty()){
             try {
                 Class cls = Class.forName(command);
@@ -83,6 +74,43 @@ class controller implements Runnable{
             }
         }
     }
+
+    public void orderAcceptedBy(Analyse analyse){
+        this.analyse = analyse;
+        new Thread(this).start();
+    }
+
+    public void giveOrder(String order){
+        Socket client  = null;
+        OutputStreamWriter outputStreamWriter = null;
+        try {
+            client = new Socket(host,port);
+            outputStreamWriter = new OutputStreamWriter(client.getOutputStream());
+            outputStreamWriter.write(order);
+            outputStreamWriter.close();
+            client.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+            if (client != null) {
+                try {
+                    client.close();
+                } catch (IOException e1) {
+                    client = null;
+                    e1.printStackTrace();
+                }
+            }
+            if (outputStreamWriter != null) {
+                try {
+                    outputStreamWriter.close();
+                } catch (IOException e1) {
+                    outputStreamWriter = null;
+                    e1.printStackTrace();
+                }
+            }
+        }
+
+    }
+
 }
 
 interface Command{
@@ -90,7 +118,6 @@ interface Command{
 }
 
 class Start implements Command{
-    public Start(){}
     private Analyse analyse;
     public Start(Analyse analyse){
         this.analyse = analyse;
@@ -102,7 +129,6 @@ class Start implements Command{
 }
 
 class Stop implements Command{
-    public Stop(){}
     private Analyse analyse;
     public Stop(Analyse analyse){
         this.analyse = analyse;
