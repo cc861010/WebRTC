@@ -1,8 +1,10 @@
+
 import java.io.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.concurrent.Executor;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,29 +13,16 @@ import java.net.Socket;
  * Time: 下午9:19
  * To change this template use File | Settings | File Templates.
  */
-public class Analyse {
-    public void start(){
-       System.out.println("start---->");
-    }
-    public void stop(){
-        System.out.println("stop---->");
-    }
-    public static void main(String[] args) throws IOException, NoSuchMethodException {
-        Controller controller = new Controller();
-        controller.orderAcceptedBy(new Analyse());
-        controller.giveOrder("Start");
-        controller.giveOrder("Stop");
-    }
-}
 
 
 
-class Controller implements Runnable{
+public class Controller<T> implements Runnable{
+
     private ServerSocket serverSocket;
     private String command;
-    private Analyse analyse;
+    private T t;
     private String host = "localhost";
-    private int port = 1433;
+    private int port = 1234;
 
     @Override
     public void run() {
@@ -44,7 +33,7 @@ class Controller implements Runnable{
                 InputStreamReader reader = new InputStreamReader(socket.getInputStream());
                 BufferedReader bufferedReader = new BufferedReader(reader);
                 command = bufferedReader.readLine();
-                control(analyse,command);
+                control(t,command);
                 reader.close();
                 bufferedReader.close();
             }
@@ -54,13 +43,14 @@ class Controller implements Runnable{
         }
     }
 
-    private void control(Analyse analyse,String command){
+    private void control(T t,String command){
         if(!command.isEmpty()){
             try {
                 Class cls = Class.forName(command);
                 Constructor[] constructor=cls.getDeclaredConstructors();
-                Command cmd = (Command)cls.getDeclaredConstructor(new Class[] { Analyse.class }).newInstance(new Object[]{analyse});
-                cmd.execute();
+                Executor executor = (Executor)cls.getDeclaredConstructor(constructor[0].getParameterTypes())
+                        .newInstance(t);
+                executor.execute(null);
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             } catch (InstantiationException e) {
@@ -75,8 +65,8 @@ class Controller implements Runnable{
         }
     }
 
-    public void orderAcceptedBy(Analyse analyse){
-        this.analyse = analyse;
+    public void orderAcceptedBy(T t){
+        this.t = t;
         new Thread(this).start();
     }
 
@@ -94,16 +84,16 @@ class Controller implements Runnable{
             if (client != null) {
                 try {
                     client.close();
-                } catch (IOException e1) {
                     client = null;
+                } catch (IOException e1) {
                     e1.printStackTrace();
                 }
             }
             if (outputStreamWriter != null) {
                 try {
                     outputStreamWriter.close();
-                } catch (IOException e1) {
                     outputStreamWriter = null;
+                } catch (IOException e1) {
                     e1.printStackTrace();
                 }
             }
@@ -111,31 +101,17 @@ class Controller implements Runnable{
 
     }
 
+
+//        public static void main(String[] args) throws IOException, NoSuchMethodException {
+//            Controller controller = new Controller();
+//            controller.orderAcceptedBy(new Analyse());
+//            controller.giveOrder("Start");
+//            controller.giveOrder("Stop");
+//        }
+
 }
 
-interface Command{
-    void execute();
-}
 
-class Start implements Command{
-    private Analyse analyse;
-    public Start(Analyse analyse){
-        this.analyse = analyse;
-    }
-    @Override
-    public void execute() {
-        analyse.start();
-    }
-}
 
-class Stop implements Command{
-    private Analyse analyse;
-    public Stop(Analyse analyse){
-        this.analyse = analyse;
-    }
-    @Override
-    public void execute() {
-        analyse.stop();
-    }
-}
+
 
