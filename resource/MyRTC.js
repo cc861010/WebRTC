@@ -44,6 +44,15 @@ var optional = {
 var peer = new webkitRTCPeerConnection(iceServers, optional);
 var constraints;
 var sdp;  //RTCSessionDescription object //sessionDescription
+
+peer.onicecandidate= function(event) {
+    console.log('peer ice callback');
+    if (event.candidate) {
+        peer.addIceCandidate(event.candidate);
+        console.log('peer ICE candidate: \n' + event.candidate.candidate);
+    }
+}
+
 peer.createOffer(
     function(offerSDP) {
         peer.setLocalDescription(offerSDP);
@@ -63,6 +72,13 @@ peer.createOffer(
 var answer;
 var offerSDP = new RTCSessionDescription({sdp:sdp.sdp,type:sdp.type});
 var otherPeer = new webkitRTCPeerConnection(iceServers, optional);
+otherPeer.onicecandidate= function(event) {
+    console.log('otherPeer ice callback');
+    if (event.candidate) {
+        otherPeer.addIceCandidate(event.candidate);
+        console.log('otherPeer ICE candidate: \n' + event.candidate.candidate);
+    }
+}
 otherPeer.setRemoteDescription(offerSDP);
 otherPeer.createAnswer(function (answerSDP) {
     otherPeer.setLocalDescription(answerSDP);
@@ -80,31 +96,31 @@ peer.setRemoteDescription(answerSDP);
 
 /////////////////////////////////////////////////////////////////////////////
 //http://www.html5rocks.com/en/tutorials/webrtc/basics/#toc-rtcdatachannel
-///udp sent from each other
+//create dataChannel
 /////////////////////////////////////////////////////////////////////////////
-function ondatachannel(event){
+
+peer.ondatachannel = function(event){
     receiveChannel = event.channel;
     receiveChannel.onmessage = function(event){
         console.log("receive:"+event.data);
-        //document.querySelector("div#receive").innerHTML = event.data;
     };
-}
+};
 
-
-peer.ondatachannel = ondatachannel;
 peerSendChannel = peer.createDataChannel("sendDataChannel", {reliable: false});
-function peerSend(data){
-    //var data = document.querySelector("textarea#send").value;
-    peerSendChannel.send(data);
+peerSendChannel.onopen = function(e){console.log("otherPeer receive:"+ peerSendChannel.readyState)};
+peerSendChannel.onclose = function(e){console.log("otherPeer receive:"+ peerSendChannel.readyState)};
+
+
+
+
+otherPeer.ondatachannel = function(event){
+    receiveChannel = event.channel;
+    receiveChannel.onmessage = function(e){console.log("otherPeer receive:"+ e.data)};
+    receiveChannel.onopen = function(e){console.log("otherPeer receive:"+ receiveChannel.readyState)};
+    receiveChannel.onclose = function(e){console.log("otherPeer receive:"+ receiveChannel.readyState)};
 };
-
-
-otherPeer.ondatachannel = ondatachannel;
 otherPeerSendChannel = otherPeer.createDataChannel("sendDataChannel", {reliable: false});
-function otherPeerSend(data){
-    //var data = document.querySelector("textarea#send").value;
-    otherPeerSendChannel.send(data);
-};
+
 
 
 
