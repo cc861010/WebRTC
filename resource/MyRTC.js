@@ -24,6 +24,8 @@ answerSDP = new SessionDescription(answerSDP);
 offerer.setRemoteDescription(answerSDP);
 
  **/
+
+
 var iceServers = {
     iceServers:[
         {url: 'stun:stun.l.google.com:19302'}, //STUN
@@ -65,7 +67,7 @@ otherPeer.setRemoteDescription(offerSDP);
 otherPeer.createAnswer(function (answerSDP) {
     otherPeer.setLocalDescription(answerSDP);
     answer = answerSDP;
-    console.log("answerSDP:"+sdp);
+    console.log("answerSDP:"+answer);
     // use XHR/WebSocket/etc. to exchange answer-sdp with "offerer"
 }, null, constraints);
 //////////////////////////////////////////////////////////////////////////
@@ -74,4 +76,48 @@ otherPeer.createAnswer(function (answerSDP) {
 answerSDP = new RTCSessionDescription({sdp:answer.sdp,type:answer.type});
 peer.setRemoteDescription(answerSDP);
 
-//接受
+
+
+/////////////////////////////////////////////////////////////////////////////
+//http://www.html5rocks.com/en/tutorials/webrtc/basics/#toc-rtcdatachannel
+///udp sent from each other
+/////////////////////////////////////////////////////////////////////////////
+function ondatachannel(event){
+    receiveChannel = event.channel;
+    receiveChannel.onmessage = function(event){
+        console.log("receive:"+event.data);
+        //document.querySelector("div#receive").innerHTML = event.data;
+    };
+}
+
+
+peer.ondatachannel = ondatachannel;
+peerSendChannel = peer.createDataChannel("sendDataChannel", {reliable: false});
+function peerSend(data){
+    //var data = document.querySelector("textarea#send").value;
+    peerSendChannel.send(data);
+};
+
+
+otherPeer.ondatachannel = ondatachannel;
+otherPeerSendChannel = otherPeer.createDataChannel("sendDataChannel", {reliable: false});
+function otherPeerSend(data){
+    //var data = document.querySelector("textarea#send").value;
+    otherPeerSendChannel.send(data);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
