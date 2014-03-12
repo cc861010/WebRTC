@@ -41,11 +41,12 @@ var optional = {
 //////////////////////////////////////////////////////////////////////////
 var peer = new webkitRTCPeerConnection(iceServers, optional);
 var constraints;
-var sdp;  //RTCSessionDescription object
+var sdp;  //RTCSessionDescription object //sessionDescription
 peer.createOffer(
-    function(sessionDescription) {
-        peer.setLocalDescription(sessionDescription);
-        sdp = sessionDescription;
+    function(offerSDP) {
+        peer.setLocalDescription(offerSDP);
+        sdp = offerSDP;
+        console.log("sdp:"+sdp);
         // use XHR/WebSocket/etc. to exchange offer-sdp with other peer(s)
     },
     function onSdpError(e) {
@@ -64,10 +65,13 @@ otherPeer.setRemoteDescription(offerSDP);
 otherPeer.createAnswer(function (answerSDP) {
     otherPeer.setLocalDescription(answerSDP);
     answer = answerSDP;
+    console.log("answerSDP:"+sdp);
     // use XHR/WebSocket/etc. to exchange answer-sdp with "offerer"
 }, null, constraints);
 //////////////////////////////////////////////////////////////////////////
 //third step
 //////////////////////////////////////////////////////////////////////////
-answerSDP = new SessionDescription({sdp:answer.sdp,type:answer.type});
-offerer.setRemoteDescription(answerSDP);
+answerSDP = new RTCSessionDescription({sdp:answer.sdp,type:answer.type});
+peer.setRemoteDescription(answerSDP);
+
+//接受
