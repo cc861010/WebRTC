@@ -17,6 +17,7 @@ function createConnection() {
     localPeerConnection.onicecandidate = function(event) {
         trace('local ice callback');
         if (event.candidate) {
+            //------------->
             remotePeerConnection.addIceCandidate(event.candidate);
             trace('Local ICE candidate: \n' + event.candidate.candidate);
         }
@@ -32,6 +33,7 @@ function createConnection() {
     remotePeerConnection.onicecandidate = function(event) {
         trace('remote ice callback');
         if (event.candidate) {
+            //------------->
             localPeerConnection.addIceCandidate(event.candidate);
             trace('Remote ICE candidate: \n ' + event.candidate.candidate);
         }
@@ -39,27 +41,33 @@ function createConnection() {
     remotePeerConnection.ondatachannel = function(event) {
         trace('Receive Channel Callback');
         receiveChannel = event.channel;
-        receiveChannel.onmessage = function(event){trace('gotReceiveChannel:onmessage->'+event.data);};
         receiveChannel.onopen = function(){trace('gotReceiveChannel:onopen');}
         receiveChannel.onclose = function(){trace('gotReceiveChannel:onclose');}
+        receiveChannel.onmessage = function(event){trace('gotReceiveChannel:onmessage->'+event.data);};
     };
 
     localPeerConnection.createOffer(function(desc) {
         localPeerConnection.setLocalDescription(desc);
         trace('Offer from localPeerConnection \n' + desc.sdp);
+        //------------->
         remotePeerConnection.setRemoteDescription(desc);
         remotePeerConnection.createAnswer(function(desc) {
             remotePeerConnection.setLocalDescription(desc);
             trace('Answer from remotePeerConnection \n' + desc.sdp);
+            //------------->
             localPeerConnection.setRemoteDescription(desc);
         });
     });
 
 }
 
-function sendData(data) {
+function sendDataToRemotePeer(data) {
     sendChannel.send(data);
-    trace('Sent data: ' + data);
+    trace('localPeer Sent data: ' + data);
+}
+function sendDataToLocalPeer(data) {
+    receiveChannel.send(data);
+    trace('remoterPeer Sent data: ' + data);
 }
 
 function closeDataChannels() {
