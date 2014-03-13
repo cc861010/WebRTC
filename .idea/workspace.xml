@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c248a72e-6265-4e14-b255-1c6498eb82c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/rtcdatachannel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/rtcdatachannel/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/rtcdatachannel/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/MyRTC.js" afterPath="$PROJECT_DIR$/resource/MyRTC.js" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\resource\MyRTC.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Projects\WebRTC\resource\myotherrtc.js" afterPath="$PROJECT_DIR$/resource/RTC.js" />
     </list>
     <ignored path="WebRTC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,19 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyRTC.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/MyRTC.js">
+      <file leaf-file-name="RTC.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resource/RTC.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="18" selection-start="3155" selection-end="3215" vertical-scroll-proportion="0.0" vertical-offset="1342" max-vertical-offset="2064">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resource/rtcdatachannel/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="28" selection-start="3255" selection-end="3275" vertical-scroll-proportion="0.36928105" vertical-offset="1327" max-vertical-offset="2256">
+            <state line="64" column="26" selection-start="2602" selection-end="2619" vertical-scroll-proportion="0.67546177" vertical-offset="768" max-vertical-offset="1328">
               <folding />
             </state>
           </provider>
@@ -124,18 +113,20 @@
         <option value="$PROJECT_DIR$/resource/fireBase/idle.js" />
         <option value="$PROJECT_DIR$/resource/fireBase/presence.html" />
         <option value="$PROJECT_DIR$/resource/fireBase/tetris.html" />
-        <option value="$PROJECT_DIR$/resource/MyRTC.js" />
         <option value="$PROJECT_DIR$/resource/rtcdatachannel/js/main.js" />
         <option value="$PROJECT_DIR$/resource/rtcdatachannel/mian.css" />
         <option value="$PROJECT_DIR$/resource/rtcdatachannel/index.html" />
+        <option value="$PROJECT_DIR$/resource/MyRTC.js" />
+        <option value="$PROJECT_DIR$/myotherrtc.js" />
+        <option value="$PROJECT_DIR$/resource/myotherrtc.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1374" />
-    <option name="height" value="748" />
+    <option name="x" value="44" />
+    <option name="y" value="3" />
+    <option name="width" value="1320" />
+    <option name="height" value="740" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -165,6 +156,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,41 +227,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtcdatachannel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRTC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRTC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRTC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -275,7 +244,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -287,14 +256,15 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\WebRTC\resource\fireBase" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\WebRTC\resource\fireBase" />
       <recent name="D:\Projects\WebRTC\resource" />
+      <recent name="D:\Projects\WebRTC\resource\fireBase" />
       <recent name="D:\Projects\WebRTC" />
       <recent name="D:\project\WebRTC\resource\fireBase" />
       <recent name="D:\project\WebRTC\resource\rtc" />
@@ -579,7 +549,8 @@
       <workItem from="1392279711132" duration="233000" />
       <workItem from="1392515301098" duration="9339000" />
       <workItem from="1392599036591" duration="5547000" />
-      <workItem from="1394586491921" duration="6714000" />
+      <workItem from="1394586491921" duration="18746000" />
+      <workItem from="1394670813802" duration="5738000" />
     </task>
     <task id="LOCAL-00001" summary="fireBase">
       <created>1392291350520</created>
@@ -613,21 +584,69 @@
       <created>1394589746947</created>
       <updated>1394589746947</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rtcdatachannel&#10;">
+      <created>1394593455670</created>
+      <updated>1394593455670</updated>
+    </task>
+    <task id="LOCAL-00010" summary="rtcdatachannel&#10;">
+      <created>1394596085878</created>
+      <updated>1394596085878</updated>
+    </task>
+    <task id="LOCAL-00011" summary="rtcdatachannel&#10;">
+      <created>1394612237753</created>
+      <updated>1394612237753</updated>
+    </task>
+    <task id="LOCAL-00012" summary="rtcdatachannel&#10;">
+      <created>1394670983622</created>
+      <updated>1394670983622</updated>
+    </task>
+    <task id="LOCAL-00013" summary="rtcdatachannel&#10;">
+      <created>1394671045042</created>
+      <updated>1394671045042</updated>
+    </task>
+    <task id="LOCAL-00014" summary="rtcdatachannel&#10;">
+      <created>1394677141871</created>
+      <updated>1394677141871</updated>
+    </task>
+    <task id="LOCAL-00015" summary="rtcdatachannel&#10;">
+      <created>1394677562407</created>
+      <updated>1394677562407</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21896000" />
+    <option name="totallyTimeSpent" value="39666000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
+    <frame x="44" y="3" width="1320" height="740" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4665605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3016129" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26674107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -635,14 +654,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.344098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34394905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28348213" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26592356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21709532" sideWeight="0.5297297" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15457413" sideWeight="0.5297297" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -652,6 +671,36 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15483871" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.344098" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27416798" sideWeight="0.5297297" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26674107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28348213" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -674,7 +723,8 @@
     <MESSAGE value="test&#10;" />
     <MESSAGE value="myRtc" />
     <MESSAGE value="myRtc&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="myRtc&#10;" />
+    <MESSAGE value="rtcdatachannel&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="rtcdatachannel&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -686,6 +736,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resource/rtcdatachannel/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="38" selection-start="1649" selection-end="1662" vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="2256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/rtcdatachannel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="33" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="1248">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/webrtc/AudioTrack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="1" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="240">
@@ -759,9 +823,7 @@
     <entry file="file://$PROJECT_DIR$/resource/google/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-14.133843" vertical-offset="7392" max-vertical-offset="11328">
-          <folding>
-            <marker date="1392559068314" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -774,9 +836,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/google/adapter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="34" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="1858" max-vertical-offset="2368">
-          <folding />
-        </state>
+        <state line="1" column="25" selection-start="34" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="1858" max-vertical-offset="2368" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/fireBase/firebase.js">
@@ -788,9 +848,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/fireBase/example.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="1" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.9338843" vertical-offset="1740" max-vertical-offset="2288">
-          <folding />
-        </state>
+        <state line="137" column="1" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.9338843" vertical-offset="1740" max-vertical-offset="2288" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/fireBase/idle.js">
@@ -804,16 +862,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/fireBase/presence.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="377" selection-end="377" vertical-scroll-proportion="2.2068965" vertical-offset="192" max-vertical-offset="1440">
-          <folding />
-        </state>
+        <state line="8" column="38" selection-start="377" selection-end="377" vertical-scroll-proportion="2.2068965" vertical-offset="192" max-vertical-offset="1440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/fireBase/leaderboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="62" selection-start="256" selection-end="256" vertical-scroll-proportion="0.2020202" vertical-offset="0" max-vertical-offset="1872">
-          <folding />
-        </state>
+        <state line="5" column="62" selection-start="256" selection-end="256" vertical-scroll-proportion="0.2020202" vertical-offset="0" max-vertical-offset="1872" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/fireBase/chat.html">
@@ -825,23 +879,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/fireBase/drawing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="62" selection-start="266" selection-end="266" vertical-scroll-proportion="0.2020202" vertical-offset="0" max-vertical-offset="1664">
-          <folding />
-        </state>
+        <state line="5" column="62" selection-start="266" selection-end="266" vertical-scroll-proportion="0.2020202" vertical-offset="0" max-vertical-offset="1664" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/fireBase/tetris.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="62" selection-start="234" selection-end="234" vertical-scroll-proportion="0.55172414" vertical-offset="96" max-vertical-offset="10432">
-          <folding />
-        </state>
+        <state line="5" column="62" selection-start="234" selection-end="234" vertical-scroll-proportion="0.55172414" vertical-offset="96" max-vertical-offset="10432" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/rtc/RTC.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="6" selection-start="5715" selection-end="5715" vertical-scroll-proportion="1.483871" vertical-offset="2800" max-vertical-offset="4784">
-          <folding />
-        </state>
+        <state line="221" column="6" selection-start="5715" selection-end="5715" vertical-scroll-proportion="1.483871" vertical-offset="2800" max-vertical-offset="4784" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/rtc/RTCMultiConnection-v1.3.js">
@@ -858,23 +906,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/rtcdatachannel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="412" selection-end="412" vertical-scroll-proportion="-1.5168539" vertical-offset="803" max-vertical-offset="1248">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/MyRTC.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="18" selection-start="3155" selection-end="3215" vertical-scroll-proportion="0.0" vertical-offset="1342" max-vertical-offset="2064">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/rtcdatachannel/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="28" selection-start="3255" selection-end="3275" vertical-scroll-proportion="0.36928105" vertical-offset="1327" max-vertical-offset="2256">
+        <state line="41" column="38" selection-start="1649" selection-end="1662" vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="2256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/rtcdatachannel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="33" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="1248">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16976">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/RTC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="26" selection-start="2602" selection-end="2619" vertical-scroll-proportion="0.67546177" vertical-offset="768" max-vertical-offset="1328">
           <folding />
         </state>
       </provider>
