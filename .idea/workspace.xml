@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c248a72e-6265-4e14-b255-1c6498eb82c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/Peer2peer/RTCCallee.js" afterPath="$PROJECT_DIR$/resource/Peer2peer/RTCCallee.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/Peer2peer/RTCCaller.js" afterPath="$PROJECT_DIR$/resource/Peer2peer/RTCCaller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/Peer2peer/caller.html" afterPath="$PROJECT_DIR$/resource/Peer2peer/caller.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/index.html" afterPath="$PROJECT_DIR$/resource/index.html" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\lib\lib.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\AudioSource.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\AudioTrack.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\IceCandidate.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\MediaConstraints.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\MediaSource.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\MediaStream.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\MediaStreamTrack.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\PeerConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\PeerConnectionFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\SdpObserver.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\SessionDescription.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\StatsObserver.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\StatsReport.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\VideoCapturer.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\VideoRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\VideoSource.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\WebRTC\src\org\webrtc\VideoTrack.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebRTC.iws" />
@@ -70,58 +84,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RTCCallee.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RTCCallee.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resource/Peer2peer/RTCCallee.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="29" selection-start="2439" selection-end="2439" vertical-scroll-proportion="-3.84" vertical-offset="816" max-vertical-offset="1968">
+            <state line="55" column="39" selection-start="2337" selection-end="2351" vertical-scroll-proportion="0.91752577" vertical-offset="791" max-vertical-offset="1968">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="caller.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resource/Peer2peer/caller.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="2" selection-start="6007" selection-end="6007" vertical-scroll-proportion="0.75321335" vertical-offset="107" max-vertical-offset="544">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="callee.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/Peer2peer/callee.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="40" selection-start="143" selection-end="143" vertical-scroll-proportion="-2.7586207" vertical-offset="0" max-vertical-offset="272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RTCCaller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/Peer2peer/RTCCaller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1968">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Signaling.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/Peer2peer/Signaling.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="29" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventEmitter.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/Peer2peer/EventEmitter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="7632">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -169,7 +136,6 @@
         <option value="$PROJECT_DIR$/myotherrtc.js" />
         <option value="$PROJECT_DIR$/resource/myotherrtc.js" />
         <option value="$PROJECT_DIR$/resource/EventEmitter.js" />
-        <option value="$PROJECT_DIR$/resource/RTC.js" />
         <option value="$PROJECT_DIR$/resource/Peer2peer/RTC.js" />
         <option value="$PROJECT_DIR$/resource/Peer2peer/server.html" />
         <option value="$PROJECT_DIR$/resource/Peer2peer/client.html" />
@@ -179,13 +145,15 @@
         <option value="$PROJECT_DIR$/resource/Peer2peer/RTCCallee.js" />
         <option value="$PROJECT_DIR$/resource/Peer2peer/RTCCaller.js" />
         <option value="$PROJECT_DIR$/resource/Peer2peer/caller.html" />
+        <option value="$PROJECT_DIR$/resource/RTC.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
+    <option name="x" value="11" />
+    <option name="y" value="14" />
     <option name="width" value="1211" />
-    <option name="height" value="740" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -254,6 +222,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resource" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -273,20 +255,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Peer2peer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRTC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRTC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -611,7 +579,7 @@
       <workItem from="1392515301098" duration="9339000" />
       <workItem from="1392599036591" duration="5547000" />
       <workItem from="1394586491921" duration="18746000" />
-      <workItem from="1394670813802" duration="21554000" />
+      <workItem from="1394670813802" duration="24770000" />
     </task>
     <task id="LOCAL-00001" summary="fireBase">
       <created>1392291350520</created>
@@ -685,11 +653,19 @@
       <created>1394697292245</created>
       <updated>1394697292245</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="rtcdatachannel&#10;">
+      <created>1394699408550</created>
+      <updated>1394699408550</updated>
+    </task>
+    <task id="LOCAL-00020" summary="rtcdatachannel&#10;">
+      <created>1394701335034</created>
+      <updated>1394701335034</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55482000" />
+    <option name="totallyTimeSpent" value="58698000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -712,11 +688,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="0" width="1211" height="740" extended-state="0" />
+    <frame x="11" y="14" width="1211" height="708" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2580645" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7636054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -734,7 +710,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17773943" sideWeight="0.5297297" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17946506" sideWeight="0.5297297" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -823,15 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/webrtc/AudioTrack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="1" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="240">
-          <folding>
-            <element signature="e#0#1660#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/p/lib/WebRtcConnection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="16" selection-start="2049" selection-end="2065" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -882,15 +849,6 @@
     <entry file="jar://D:/java/JDK/jdk1.7.0_15/src.zip!/java/lang/reflect/Constructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="507" column="13" selection-start="20476" selection-end="20476" vertical-scroll-proportion="0.610586" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/webrtc/AudioTrack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="1" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding>
-            <element signature="e#0#1660#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/google/main.js">
@@ -989,15 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/Peer2peer/EventEmitter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="7632">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/rtc/RTC.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="185" column="4" selection-start="4454" selection-end="4504" vertical-scroll-proportion="0.3644647" vertical-offset="2800" max-vertical-offset="4784">
@@ -1012,23 +961,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/Peer2peer/callee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="143" selection-end="143" vertical-scroll-proportion="-2.7586207" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="14" selection-start="44" selection-end="44" vertical-scroll-proportion="0.11707317" vertical-offset="0" max-vertical-offset="410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/Peer2peer/Signaling.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
           <folding />
         </state>
       </provider>
@@ -1040,30 +975,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resource/Peer2peer/EventEmitter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="-0.0900474" vertical-offset="182" max-vertical-offset="7632">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/Peer2peer/Signaling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="399" selection-end="399" vertical-scroll-proportion="0.58850574" vertical-offset="0" max-vertical-offset="448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resource/RTC.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="39" selection-start="1355" selection-end="1369" vertical-scroll-proportion="0.57760817" vertical-offset="285" max-vertical-offset="1456">
+        <state line="16" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.6066351" vertical-offset="0" max-vertical-offset="2480">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/Peer2peer/RTCCaller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1968">
+        <state line="22" column="26" selection-start="865" selection-end="865" vertical-scroll-proportion="0.49289098" vertical-offset="144" max-vertical-offset="1968">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/Peer2peer/RTCCallee.js">
+    <entry file="file://$PROJECT_DIR$/resource/Peer2peer/callee.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="29" selection-start="2439" selection-end="2439" vertical-scroll-proportion="-3.84" vertical-offset="816" max-vertical-offset="1968">
+        <state line="4" column="30" selection-start="89" selection-end="89" vertical-scroll-proportion="0.15763547" vertical-offset="0" max-vertical-offset="406">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/Peer2peer/caller.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="2" selection-start="6007" selection-end="6007" vertical-scroll-proportion="0.75321335" vertical-offset="107" max-vertical-offset="544">
+        <state line="21" column="0" selection-start="3798" selection-end="3798" vertical-scroll-proportion="0.5826972" vertical-offset="107" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/Peer2peer/RTCCallee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="39" selection-start="2337" selection-end="2351" vertical-scroll-proportion="0.91752577" vertical-offset="791" max-vertical-offset="1968">
           <folding />
         </state>
       </provider>
