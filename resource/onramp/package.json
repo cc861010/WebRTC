@@ -1,0 +1,22 @@
+{
+  "name": "onramp",
+  "description": "Web Socket Server to Connect to P2P Networks",
+  "version": "0.3.1",
+  "dependencies": {
+    "node-uuid": "~1.4.0",
+    "websocket": "~1.0.8",
+    "commander": "~1.1.1",
+    "its": "~1.0.2"
+  },
+  "devDependencies": {},
+  "main": "index.js",
+  "bin": {
+    "onramp": "./bin/onramp"
+  },
+  "preferGlobal": true,
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": ["peer-to-peer", "websockets", "webrtc", "p2p", "plink", "p", "onramp", "mesh", "distributed"]
+}
