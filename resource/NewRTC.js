@@ -57,7 +57,7 @@ function onPc2LocalDescriptionSet() {
 }
 
 function onPc1RemoteDescriptionSet() {
-    console.log("---------------------------------------------------------")
+    console.log("--------------------------------------------------------->")
 }
 
 
