@@ -21,8 +21,9 @@ function createConnection() {
             trace('Local ICE candidate: \n' + event.candidate.candidate);
         }
     };
-    sendChannel.onopen = function(event){trace('sendChannel:onopen');};;
-    sendChannel.onclose = function(event){trace('sendChannel:onclose');};;
+    sendChannel.onopen = function(event){trace('sendChannel:onopen');};
+    sendChannel.onclose = function(event){trace('sendChannel:onclose');};
+    sendChannel.onmessage = function(event){trace('sendChannel:onmessage->'+event.data);};
     /*
      * setup remotePeerConnection
      */
@@ -41,7 +42,6 @@ function createConnection() {
         receiveChannel.onmessage = function(event){trace('gotReceiveChannel:onmessage->'+event.data);};
         receiveChannel.onopen = function(){trace('gotReceiveChannel:onopen');}
         receiveChannel.onclose = function(){trace('gotReceiveChannel:onclose');}
-        receiveChannel.send = function(data){receiveChannel.send(data);}
     };
 
     localPeerConnection.createOffer(function(desc) {
