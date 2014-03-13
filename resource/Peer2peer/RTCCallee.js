@@ -60,8 +60,12 @@ function trace(text) {
             signaling.emitMessage("candidate",event.candidate);
             //localPeerConnection.addIceCandidate(event.candidate);
             trace('Remote ICE candidate: \n ' + event.candidate.candidate);
+
         }
     };
+    signaling.onMessage("candidate",function(candidate){
+        remotePeerConnection.addIceCandidate(new RTCIceCandidate(candidate));
+    })
 
     remotePeerConnection.ondatachannel = function(event) {
         trace('Receive Channel Callback');
@@ -73,7 +77,7 @@ function trace(text) {
 
 
     signaling.onMessage("sdpOffer",function(sdpOffer){
-        remotePeerConnection.setRemoteDescription({sdp:JSON.parse(sdpOffer),type:JSON.parse(sdpOffer).type});
+        remotePeerConnection.setRemoteDescription(new RTCSessionDescription(JSON.parse(sdpOffer)));
         remotePeerConnection.createAnswer(function(sdpAnswer) {
             remotePeerConnection.setLocalDescription(sdpAnswer);
             trace('Answer from remotePeerConnection \n' + sdpAnswer.sdp);

@@ -23,6 +23,10 @@ function trace(text) {
             trace('Local ICE candidate: \n' + event.candidate.candidate);
         }
     };
+    signaling.onMessage("candidate",function(candidate){
+        localPeerConnection.addIceCandidate(new RTCIceCandidate(candidate));
+    })
+
     sendChannel.onopen = function(event){trace('sendChannel:onopen');};
     sendChannel.onclose = function(event){trace('sendChannel:onclose');};
     sendChannel.onmessage = function(event){trace('sendChannel:onmessage->'+event.data);};
@@ -40,9 +44,9 @@ function trace(text) {
 //            localPeerConnection.setRemoteDescription(desc);
 //        });
         signaling.onMessage("sdpAnswer",function(sdpAnswer){
-            localPeerConnection.setLocalDescription({sdp:JSON.parse(sdpAnswer),type:JSON.parse(sdpAnswer).type});
+            localPeerConnection.setLocalDescription(new RTCSessionDescription(JSON.parse(sdpAnswer)));
             trace('Offer from localPeerConnection \n' + desc.sdp);
-            localPeerConnection.setRemoteDescription({sdp:JSON.parse(sdpAnswer),type:JSON.parse(sdpAnswer).type});
+            localPeerConnection.setRemoteDescription(new RTCSessionDescription(JSON.parse(sdpAnswer)));
         })
         signaling.emitMessage("sdpOffer",desc);
     });
