@@ -2,15 +2,15 @@
 
  var pc1, pc2, offer, answer;
 
- pc1 = new webkitRTCPeerConnection(options);
- pc2 = new webkitRTCPeerConnection(options);
+ pc1 = new webkitRTCPeerConnection(null,{optional: [{RtpDataChannels: true}]});
+ pc2 = new webkitRTCPeerConnection(null,{optional: [{RtpDataChannels: true}]});
 
- pc1.onicecandidate = function(candidate) {
-  pc2.addIceCandidate(candidate);
+ pc1.onicecandidate = function(event) {
+    if (event.candidate) pc2.addIceCandidate(event.candidate);
 };
 
- pc2.onicecandidate = function(candidate) {
-  pc1.addIceCandidate(candidate);
+ pc2.onicecandidate = function(event) {
+    if (event.candidate) pc1.addIceCandidate(event.candidate);
 };
 
  pc1.createOffer(onOfferCreated, onError);
