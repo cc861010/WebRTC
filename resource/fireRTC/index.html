@@ -6,23 +6,25 @@
     <script type="application/javascript">
         function Signaling(myId,otherId){
             this.firebase = new Firebase("https://bearbb.firebaseio.com/rtc/").child(myId);
+            this.firebase.set({event:"",value:""});
             this.other = new Firebase("https://bearbb.firebaseio.com/rtc/").child(otherId);
-            this.user = this.firebase.push({event: "login",value:new Date().getTime()+"|"+Math.random()});
             this.event=[];
             var self = this;
             // 'value', 'child_added', 'child_changed', 'child_removed' or 'child_moved'.
             this.firebase.on("value",function(dataSnapshot){
-                console.log("value--->");
+
+                var message = JSON.parse(dataSnapshot.val());
+                if(message && message.event!=null){
+                    console.log("value--->"+message.event+" "+message.value);
+                    self.callback(message.event,message.value);
+                }
             })
             this.firebase.on("child_added",function(childSnapshot, prevChildName){
                 console.log("child_added---"+JSON.stringify(childSnapshot.val()));
+
             })
             this.firebase.on("child_changed",function(childSnapshot, prevChildName){
                 console.log("child_changed---"+JSON.stringify(childSnapshot.val()));
-                if(childSnapshot.val().event!=null){
-                    self.callback(childSnapshot.val().event,childSnapshot.val().value);
-                }
-
             })
             this.firebase.on("child_removed",function(oldChildSnapshot){
                 console.log("child_removed---"+JSON.stringify(oldChildSnapshot.val()));
@@ -44,7 +46,9 @@
             }
         }
         Signaling.prototype.emitMessage = function(e,v){
-            this.other.set({event:e,value:v});
+            var message = {event:e,value:v};
+            this.other.remove();
+            this.other.set(JSON.stringify(message));
         }
         var signaling1 = new Signaling(1,2);
         var signaling2 = new Signaling(2,1);
