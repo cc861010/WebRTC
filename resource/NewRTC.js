@@ -1,7 +1,7 @@
 var pc1, pc2, offer, answer;
 
 pc1 = new webkitRTCPeerConnection(null,{optional: [{RtpDataChannels: true}]});
-sendChannel = pc1.createDataChannel("sendDataChannel",{reliable: false});
+sendChannel = pc1.createDataChannel("sendDataChannel",{reliable: true});
 sendChannel.onopen = function(event){console.log('sendChannel:onopen');};
 sendChannel.onclose = function(event){console.log('sendChannel:onclose');};
 sendChannel.onmessage = function(event){console.log('sendChannel:onmessage->'+event.data);};
@@ -18,11 +18,11 @@ pc2.ondatachannel = function(event) {
 
 
 pc1.onicecandidate = function(event) {
-    if (event.candidate){ pc2.addIceCandidate(event.candidate); console.log("pc2.addIceCandidate"+ event.candidate)}
+    if (event.candidate){ pc2.addIceCandidate(event.candidate); console.log("pc2.addIceCandidate"+ event.candidate.candidate)}
 };
 
 pc2.onicecandidate = function(event) {
-    if (event.candidate){ pc1.addIceCandidate(event.candidate); console.log("pc1.addIceCandidate"+ event.candidate)}
+    if (event.candidate){ pc1.addIceCandidate(event.candidate); console.log("pc1.addIceCandidate"+ event.candidate.candidate)}
 };
 
 
