@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>fireRTC</title>
+    <script src="https://cdn.firebase.com/v0/firebase.js"></script>
+    <script type="application/javascript">
+        function Signaling(myId,otherId){
+            this.firebase = new Firebase("https://bearbb.firebaseio.com/rtc/").child(myId);
+            this.other = new Firebase("https://bearbb.firebaseio.com/rtc/").child(otherId);
+            this.user = this.firebase.push({event: "login",value:new Date().getTime()+"|"+Math.random()});
+            this.event=[];
+            var self = this;
+            // 'value', 'child_added', 'child_changed', 'child_removed' or 'child_moved'.
+            this.firebase.on("value",function(dataSnapshot){
+                console.log("value--->");
+            })
+            this.firebase.on("child_added",function(childSnapshot, prevChildName){
+                console.log("child_added---"+JSON.stringify(childSnapshot.val()));
+            })
+            this.firebase.on("child_changed",function(childSnapshot, prevChildName){
+                console.log("child_changed---"+JSON.stringify(childSnapshot.val()));
+                if(childSnapshot.val().event!=null){
+                    self.callback(childSnapshot.val().event,childSnapshot.val().value);
+                }
+
+            })
+            this.firebase.on("child_removed",function(oldChildSnapshot){
+                console.log("child_removed---"+JSON.stringify(oldChildSnapshot.val()));
+            })
+            this.firebase.on("child_moved",function(childSnapshot, prevChildName){
+                console.log("child_moved---"+JSON.stringify(childSnapshot.val()));
+            })
+
+        }
+        Signaling.prototype.onMessage = function(e,fn){
+            this.event.push({e:e,fn:fn});
+            console.log("on--->"+JSON.stringify(e));
+        }
+        Signaling.prototype.callback = function(e,v){
+            for(var i=0;i<this.event.length;i++){
+                if(this.event[i].e==e){
+                    this.event[i].fn(v);
+                }
+            }
+        }
+        Signaling.prototype.emitMessage = function(e,v){
+            this.other.set({event:e,value:v});
+        }
+        var signaling1 = new Signaling(1,2);
+        var signaling2 = new Signaling(2,1);
+    </script>
+    <script src="NewRTC.js"></script>
+</head>
+<body>
+
+</body>
+</html>
